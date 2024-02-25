@@ -135,3 +135,54 @@ switch (askedGrade) {
         console.log('Error');
 }
 */
+
+//დავალება 11
+
+/*
+let dayData = prompt('შეიყვანეთ თარიღი "მაგ: 2 იანვარი, 5 მარტი" : ')
+
+let partDate = dayData.split(' ')
+
+let onlyMonth = partDate[partDate.length - 1] //es mainteresev mere
+
+switch (onlyMonth) {
+    case 'იანვარი':
+        console.log(31)
+        break;
+    case 'თებერვალი':
+        console.log("28 ან 29")
+        break;
+    case 'მარტი':
+        console.log(31)
+        break;
+    case 'აპრილი':
+        console.log(30)
+        break;
+    case 'მაისი':
+        console.log(31)
+        break;
+    case 'ივნისი':
+        console.log(30)
+        break;
+    case 'ივლისი':
+        console.log(31)
+        break;
+    case 'აგვისტო':
+        console.log(31)
+        break;
+    case 'სექტემბერი':
+        console.log(30)
+        break;
+    case 'ოქტომბერი':
+        console.log(31)
+        break;
+    case 'ნოემბერი':
+        console.log(30)
+        break;
+    case 'დეკემბერი':
+        console.log(31)
+        break;
+    default:
+        console.log('ეს თვე არ არსებობს')
+}
+*/
