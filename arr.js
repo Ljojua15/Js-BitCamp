@@ -143,3 +143,7 @@ let mitArbeiter = [{
         "nationality": "Portuguese"
     }
 ]
+
+let oldWorker = mitArbeiter.filter((olderworker) => olderworker.age > 30)
+
+console.log(oldWorker)
