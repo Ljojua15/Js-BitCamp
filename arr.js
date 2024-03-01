@@ -147,11 +147,12 @@ let mitArbeiter = [{
 let oldWorker = mitArbeiter.filter((olderworker) => olderworker.age > 30 && olderworker.sex === 'Male')
 
 
-let maleName = oldWorker.map((name, index) => name.name).touppercase
+let maleName = oldWorker.map((name) => name.name)
+
+let newNames = maleName.shift()
 
 
 
 
 
-console.log(oldWorker);
 console.log(maleName);
