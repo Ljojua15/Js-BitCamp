@@ -156,3 +156,10 @@ let newNames = maleName.shift()
 
 
 console.log(maleName);
+
+
+let number = 1
+while (number <= 12) {
+    console.log(number)
+    number = number + 2
+}
