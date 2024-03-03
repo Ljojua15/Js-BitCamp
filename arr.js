@@ -153,6 +153,11 @@ let newNames = maleName.shift()
 
 
 
+console.log(maleName);
+
+maleName.forEach(name => {
+    console.log(`i know ${name}`)
+})
 
 
 
@@ -167,12 +172,16 @@ let newNames = maleName.shift()
 
 
 
-let count = 0;
-let addition = 3;
-while (count < 10) {
-    addition = addition * 2
-    count = count + 1
+// newFunction();
 
-}
+// function newFunction() {
+//     let count = 0;
+//     let addition = 3;
+//     while (count < 10) {
+//         addition = addition * 2;
+//         count = count + 1;
 
-console.log(addition)
+//     }
+
+//     console.log(addition);
+// }
