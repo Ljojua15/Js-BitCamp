@@ -160,6 +160,12 @@ maleName.forEach(name => {
 })
 
 
+let result = maleName.map((names) => {
+    return names + names
+})
+
+console.log(result)
+
 
 
 // let number = 1
