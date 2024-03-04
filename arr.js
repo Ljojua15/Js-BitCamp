@@ -165,7 +165,10 @@ let findAge = allAges.find((number) => {
     return number == 32
 })
 
-console.log(findAge)
+agesAndNames.push('buhehehe')
+
+
+console.log(agesAndNames)
 
 
 
