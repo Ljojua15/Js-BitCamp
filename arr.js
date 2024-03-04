@@ -161,6 +161,11 @@ let agesAndNames = maleName.concat(allAges)
 
 console.log(agesAndNames)
 
+let findAge = allAges.find((number) => {
+    return number == 32
+})
+
+console.log(findAge)
 
 
 
