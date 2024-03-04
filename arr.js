@@ -151,20 +151,33 @@ let maleName = oldWorker.map((name) => name.name)
 
 let newNames = maleName.shift()
 
+let allAges = oldWorker.map((age) => age.age)
 
+console.log(allAges)
 
 console.log(maleName);
 
-maleName.forEach(name => {
-    console.log(`i know ${name}`)
-})
+let agesAndNames = maleName.concat(allAges)
+
+console.log(agesAndNames)
 
 
-let result = maleName.map((names) => {
-    return names + names
-})
 
-console.log(result)
+
+
+
+
+
+// maleName.forEach(name => {
+//     console.log(`i know ${name}`)
+// })
+
+
+// let result = maleName.map((names) => {
+//     return names + names
+// })
+
+// console.log(result)
 
 
 
