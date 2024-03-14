@@ -1,8 +1,14 @@
-let x = 1
-let y = 0
-while (y<10){
-    x=x*1
-    y=y+1
+let name;
+do{
+    name = Number(prompt('შეიყვანეთ კოდი:'))
+}while (name !== 1234 )
+
+console.log(name)
+
+let res = 1;
+for(let i=0; i <10; i++){
+  res = res * 2
+    console.log(res)
 }
 
-console.log(x)
+console.log(res)
