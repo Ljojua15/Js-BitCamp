@@ -65,3 +65,16 @@ console.log(qqq(5))
 let number = qqq(6)
 
 console.log(4 + number)
+
+
+const foo = function (ricxvi,xarisxi){
+    let pasuxi = 1
+    for(let tvla = 0; tvla < xarisxi; tvla++){
+        pasuxi *= ricxvi
+    }
+    return pasuxi
+}
+
+
+let bechdva = foo (2,4)
+console.log(bechdva)
