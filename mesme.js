@@ -55,26 +55,61 @@ console.log(result)
 //
 
 
-const qqq = function (x){
-    return (x * x)
+// const qqq = function (x){
+//     return (x * x)
+// }
+//
+// console.log(qqq(2))
+// console.log(qqq(5))
+//
+// let number = qqq(6)
+//
+// console.log(4 + number)
+//
+//
+// const foo = function (ricxvi,xarisxi){
+//     let pasuxi = 1
+//     for(let tvla = 0; tvla < xarisxi; tvla++){
+//         pasuxi *= ricxvi
+//     }
+//     return pasuxi
+// }
+//
+//
+// let bechdva = foo (2,4)
+// console.log(bechdva)
+
+//
+/*
+1.დავალება
+
+let sayHallo = function (){
+    let name = prompt('შეიყვანე შენი სახელი ')
+    alert(`გამარჯოგბა შენი სახელია ${name}` )
 }
 
-console.log(qqq(2))
-console.log(qqq(5))
+sayHallo()
 
-let number = qqq(6)
+*/
 
-console.log(4 + number)
+/*
+2.დავალება
+let countSimbol = function (){
+    let word = prompt('შეიყვანეთ სიტყვა')
+    let countedSimbol = word.length
+    console.log(`${word}-ს აქვს ${countedSimbol} სიმბოლო`)
+}
 
+countSimbol()
 
-const foo = function (ricxvi,xarisxi){
-    let pasuxi = 1
-    for(let tvla = 0; tvla < xarisxi; tvla++){
-        pasuxi *= ricxvi
-    }
-    return pasuxi
+ */
+
+let citata = function (){
+    let words = prompt('შეიყვანეთ ციტატა')
+    let author = prompt('ავტტორის სახელი')
+
+    console.log(`${author}-მ თქვა, "${words}"`)
 }
 
 
-let bechdva = foo (2,4)
-console.log(bechdva)
+citata()
