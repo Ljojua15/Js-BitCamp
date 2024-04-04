@@ -103,7 +103,7 @@ let countSimbol = function (){
 countSimbol()
 
  */
-
+/* davaleba 3
 let citata = function (){
     let words = prompt('შეიყვანეთ ციტატა')
     let author = prompt('ავტტორის სახელი')
@@ -113,3 +113,6 @@ let citata = function (){
 
 
 citata()
+*/
+
+
