@@ -114,5 +114,11 @@ let citata = function (){
 
 citata()
 */
-
-
+//
+// let lowwer = function (){
+//     let sence = prompt('sheiyvanet winadadeba')
+//
+//     console.log(sence.toLowerCase())
+// }
+//
+// lowwer()
