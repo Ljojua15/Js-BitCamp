@@ -124,21 +124,21 @@ citata()
 // lowwer()
 
 
-let restaurant = function (person) {
-    let menu = function (adamiani, glass, spoon ){
-        let personalMenu = adamiani * person;
-        if (personalMenu > 1){
-            glass += "kai";
-            spoon += "kaco";
-        }
+// let restaurant = function (person) {
+//     let menu = function (adamiani, glass, spoon ){
+//         let personalMenu = adamiani * person;
+//         if (personalMenu > 1){
+//             glass += "kai";
+//             spoon += "kaco";
+//         }
 
-        console.log(`${personalMenu} ${glass} ${spoon}  ` )
-    }
+//         console.log(`${personalMenu} ${glass} ${spoon}  ` )
+//     }
 
-    menu(0.25, "cdsf", 'dgfsdg')
-    menu(0.1, "uiouio", 'iuouioui')
-    menu(4, "asdasd", 'asdasdasd')
-}
+//     menu(0.25, "cdsf", 'dgfsdg')
+//     menu(0.1, "uiouio", 'iuouioui')
+//     menu(4, "asdasd", 'asdasdasd')
+// }
 
 
-restaurant(9)
+// restaurant(9)
