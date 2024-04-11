@@ -50,3 +50,19 @@ console.log(separate())
 // console.log(convert())
 //
 //
+
+
+//პროექტი 7 - თამაში Mad Libs
+
+
+
+function wordsGame(){
+    let name = prompt('შეიყვანეთ სახელი')
+    let surName = prompt('შეიყვანეთ გვარი')
+    let age = prompt('შეიყვანეთ ასაკი')
+    let birthDay = prompt('შეიყვანეთ რიცხვი')
+    let birthMonth = prompt('შეიყვანეთ თვე')
+
+    return `შენ ხარ ${name} ${surName} ${age} წელის, დაბადებული ${birthDay} ${birthMonth}`
+}
+
