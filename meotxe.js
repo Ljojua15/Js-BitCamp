@@ -54,15 +54,33 @@ console.log(separate())
 
 //პროექტი 7 - თამაში Mad Libs
 
-
+/*
 
 function wordsGame(){
     let name = prompt('შეიყვანეთ სახელი')
     let surName = prompt('შეიყვანეთ გვარი')
     let age = prompt('შეიყვანეთ ასაკი')
-    let birthDay = prompt('შეიყვანეთ რიცხვი')
-    let birthMonth = prompt('შეიყვანეთ თვე')
+    let birthDay = prompt('შეიყვანეთ დაბადების რიცხვი')
+    let birthMonth = prompt('შეიყვანეთ დაბადენის თვე')
 
-    return `შენ ხარ ${name} ${surName} ${age} წელის, დაბადებული ${birthDay} ${birthMonth}`
+    let answer =`შენ ხარ ${name} ${surName} ${age} წელის, დაბადებული ${birthDay} ${birthMonth}`
+
+    function corectAnswer(){
+        let ask = prompt(`"${answer}", დაწერეთ "კი" ან "არა"`)
+
+        if (ask.includes('კი')){
+            console.log('კარგია')
+        }else if(ask.includes('არა')) {
+            console.log('შეავსეთ თავიდან')
+        }else{
+            alert('დაწერეთ "კი" ან "არა"')
+        }
+    }
+
+    corectAnswer()
 }
 
+
+wordsGame()
+
+*/
